@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <nav>
-      <h1 class="text-3xl font-bold underline ">
-        <div class=" navbar fixed text-white">
+      <h1 class="text-3xl font-Custom font-bold underline text-white">
+        <div class=" navbar fixed ">
           <div class="navbar-start ">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -39,8 +40,8 @@
             </div>
             <a class="btn btn-ghost text-xl">daisyUI</a>
           </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+          <div class="navbar-center hidden lg:flex ">
+            <ul class="menu menu-horizontal ">
               <li><a>Item 1</a></li>   
               <li><a>Item 2</a></li>   
               <li><a>Item 3</a></li>
@@ -84,17 +85,20 @@
     </nav>
     <div class="hero justify-start min-h-screen " style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png');"
       <div class="hero-content text-left ">
-        <div class="max-w-md text-white px-10 mx-10">
-          <h1 class="mb-5 text-5xl font-bold ">Hello there</h1>
+        <div class="max-w-md font-Custom text-white px-10 mx-10 pt-20 ">
+          <h1 class="mb-5 text-5xl font-bold ">Beautiful homes made for you</h1>
           <p class="mb-5">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button class="btn btn-primary">Get Started</button>
+          <!-- <button class="btn btn-primary font-Custom">Get Started</button> -->
+          <div class="absolute bottom-0 px-40 left-3 w-full ">
+            <button class="w-full  px-10 py-3 text-left font-Custom font-bold text-black bg-white">See all listing <i class="px-2 text-orange-600 fa-solid fa-arrow-right-long"></i></button>
+          </div>
         </div>
       </div>
     </div>
+    <script src="style.js"></script>
   </body>
-  <script src="style.js"></script>
 </html>

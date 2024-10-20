@@ -1,7 +1,11 @@
 module.exports = {
   purge: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Custom': ['DM Sans','sans-serif']
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
