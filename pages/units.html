@@ -4,12 +4,57 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="../src/output.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body>
    <!-- NAVBAR -->
+   <nav class="navbar bg-gray-800">
+      <h1 class="text-3xl font-Custom font-bold underline text-white">
+         <div class=" navbar fixed ">
+            <div class="navbar-start ">
+               <div class="dropdown">
+               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="h-5 w-5"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke="currentColor"
+                  >
+                     <path
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     stroke-width="2"
+                     d="M4 6h16M4 12h8m-8 6h16"
+                     />
+                  </svg>
+               </div>
+               <ul id="theme-switch" tabindex="0"class=" menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
+               >
+                  <li><a href="../index.html">Home</a></li>   
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="">Our Units</a></li>   
+                  <li><a>Item 4</a></li>
+               </ul>
+               </div>
+               <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <div class="navbar-center hidden lg:flex ">
+               <ul class="menu menu-horizontal ">
+               <li><a href="../index.html">Home</a></li>   
+               <li><a>About Us</a></li>
+               <li><a href="">Our Units</a></li>   
+               <li><a>Item 4</a></li>
+               </ul>
+            </div>
+            <div class="navbar-end mr-8">
+               <a href="#" class="text-white rounded-md bg-gray-800 text-xl px-6 py-1 hover:bg-black focus:scale-95 .transition:all duration-2200 ease-out ">Contact Us</a>
+            </div>
+         </div>
+         </h1>
+      </nav>
 
    <div class="container mx-auto">
       
@@ -24,7 +69,7 @@
             <div class="card rounded-md">
                <div class="flex flex-col">
                   <div class="rounded-md overflow-hidden">
-                     <img src="image/home1.jpg" alt="">
+                     <img src="../image/home1.jpg" alt="">
                   </div>
                   <h5 class="text-l md:text-xl font-light mt-3 mx-4">Batu, East Java </h5>
                   <div class="mt-4 justify-between flex">
@@ -43,7 +88,7 @@
             <div class="card rounded-md">
                <div class="flex flex-col">
                   <div class="rounded-md overflow-hidden">
-                     <img src="image/home2.jpg" alt="">
+                     <img src="../image/home2.jpg" alt="">
                   </div>
                   <h5 class="text-l md:text-xl font-light mt-3 mx-4">Ubud, Bali </h5>
                   <div class="mt-4 justify-between flex">
@@ -62,7 +107,7 @@
             <div class="card rounded-md">
                <div class="flex flex-col">
                   <div class="rounded-md overflow-hidden">
-                     <img src="image/home3.jpg" alt="">
+                     <img src="../image/home3.jpg" alt="">
                   </div>
                   <h5 class="text-l md:text-xl font-light mt-3 mx-4">Dieng, Central Java </h5>
                   <div class="mt-4 justify-between flex">
